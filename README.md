@@ -6,22 +6,13 @@
   
   <?php
   require("Db.class.php");
-  
-# Create the instance and set your database parameter as array.
-  
-  
-  <?php
-  
-	// The instance
-	
-	$db = new Db(array('host' => 'localhost', 'username' => 'YOURDBUSERNAME', 'password' => 'YOURDBPASSWORD', 'dbname' => 'YOURDB'));
 
 #	EXAMPLE & USAGE
 	<?php
 	require("Db.class.php");
 	
 	try{
-		// Creates the instance
+		//  Create the instance and set your database parameter as array.
 		$db = new Db(array('host' => 'localhost', 'username' => 'YOURDBUSERNAME', 'password' => 'YOURDBPASSWORD', 'dbname' => 'YOURDB'));
 			
 		// 3 ways to bind parameters :		
