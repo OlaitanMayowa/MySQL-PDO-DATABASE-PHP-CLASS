@@ -1,11 +1,7 @@
 # MySQL-PDO-DATABASE-PHP-CLASS
   A PHP MySQL database class which utilizes PDO driver.
-
-# To use this class
-  Require the class in your project
   
-  <?php
-  require("Db.class.php");
+  If you have any questions go to: http://olaitanmayowa.com/
 
 #	EXAMPLE & USAGE
 	<?php
